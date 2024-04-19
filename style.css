@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(62, 59, 61);
+  display: flex;
+}
+
+#part1 {
+  height: 100%;
+  width: 20%;
+}
+
+#part2 {
+  height: 100%;
+  width: 70%;
+  background-color: rgb(0, 208, 255);
+  background-image: url(https://images.unsplash.com/photo-1524504542391-127872011665?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D);
+  background-size: cover;
+  background-position: top;
+}
+
+#overlay {
+  height: 100%;
+  width: 100%;
+  background-color: hsla(344, 18%, 70%, 0.305);
+}
+
+#part3 {
+  height: 100%;
+  width: 10%;
+}
+
+#text-div {
+  height: 300px;
+  position: absolute;
+  width: 400px;
+  left: 8%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#text-div h2 {
+  font-size: 90px;
+  font-family: monument;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 80px;
+  letter-spacing: 7px;
+  color: #fff;
+}
+
+#small-img-div {
+  height: 400px;
+  width: 300px;
+  opacity: 0.8;
+  /* background-color: red; */
+  background-image: url(https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW9kZWxzfGVufDB8fDB8fHww);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0%, -50%);
+}
+
+#vertical-text {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 3%;
+  right: -46.5%;
+  transform-origin: 0% 0%;
+  /* width: 100%; */
+  /* background-color: red; */
+}
+
+#vertical-text h2 {
+  font-size: 65px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: transparent;
+  letter-spacing: 5px;
+  font-family: monument;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+
+#navbar {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  left: 8%;
+  top: 15%;
+  /* background-color: red; */
+}
+
+#navbar img {
+  height: 60px;
+}
+
+#navbar h5 {
+  font-size: 20px;
+  color: #fff;
+  font-family: gilroy;
+}
